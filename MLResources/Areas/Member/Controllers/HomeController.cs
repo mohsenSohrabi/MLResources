@@ -1,9 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using MLResources.Models;
+using MLResources.Models.ViewModels;
 using System.Diagnostics;
 
-namespace MLResources.Controllers
+namespace MLResources.Areas.Member.Controllers
 {
+    [Area("Member")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;

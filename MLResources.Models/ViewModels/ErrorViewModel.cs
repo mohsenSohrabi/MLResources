@@ -1,4 +1,4 @@
-namespace MLResources.Models
+namespace MLResources.Models.ViewModels
 {
     public class ErrorViewModel
     {

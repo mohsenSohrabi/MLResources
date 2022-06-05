@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLResources", "MLResources\MLResources.csproj", "{443C17A1-4C82-4E45-88B1-5C6292A2FCB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLResources", "MLResources\MLResources.csproj", "{443C17A1-4C82-4E45-88B1-5C6292A2FCB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLResources.DataAccess", "MLResources.DataAccessLayer\MLResources.DataAccess.csproj", "{A681D90D-6B0F-4FEF-9193-D5C5CD9B3E59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLResources.Models", "MLResources.Models\MLResources.Models.csproj", "{4CCDF0B3-A6BD-44DA-A12E-1725FCA58EAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLResources.Utility", "MLResources.Utility\MLResources.Utility.csproj", "{873DE582-CF94-4E7E-A38A-6CC79DBF2E16}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{443C17A1-4C82-4E45-88B1-5C6292A2FCB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{443C17A1-4C82-4E45-88B1-5C6292A2FCB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{443C17A1-4C82-4E45-88B1-5C6292A2FCB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A681D90D-6B0F-4FEF-9193-D5C5CD9B3E59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A681D90D-6B0F-4FEF-9193-D5C5CD9B3E59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A681D90D-6B0F-4FEF-9193-D5C5CD9B3E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A681D90D-6B0F-4FEF-9193-D5C5CD9B3E59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CCDF0B3-A6BD-44DA-A12E-1725FCA58EAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CCDF0B3-A6BD-44DA-A12E-1725FCA58EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CCDF0B3-A6BD-44DA-A12E-1725FCA58EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CCDF0B3-A6BD-44DA-A12E-1725FCA58EAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{873DE582-CF94-4E7E-A38A-6CC79DBF2E16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{873DE582-CF94-4E7E-A38A-6CC79DBF2E16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{873DE582-CF94-4E7E-A38A-6CC79DBF2E16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{873DE582-CF94-4E7E-A38A-6CC79DBF2E16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
